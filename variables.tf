@@ -29,7 +29,7 @@ variable "route53_record_alias_name" {
 }
 
 variable "route53_record_alias_evaluate_target_health" {
-    type        = string
+    type        = bool
     description = "route53 record alias evaluate target health."
 }
 
